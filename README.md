@@ -30,3 +30,6 @@ also works.  I prefer it.
 
 
           In LIKE clause, % matches any string, _ matches any character
+
+### Notes on JOINs
+
