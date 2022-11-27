@@ -1,5 +1,4 @@
-#   SQL Tutorial with MariaDB
-## Reference
+#   SQL Tutorial with MariaDB ## Reference
 https://www.mariadbtutorial.com/
 Note that the tutorial uses "mysql" for the command line client.  "mariadb"
 also works.  I prefer it.
@@ -32,4 +31,4 @@ also works.  I prefer it.
           In LIKE clause, % matches any string, _ matches any character
 
 ### Notes on JOINs
-
+ee Chapter 15, "MariaDB Crash Course"
