@@ -29,4 +29,4 @@ also works.  I prefer it.
           [FOR UPDATE lock_option | LOCK IN SHARE MODE lock_option];
 
 
-
+          In LIKE clause, % matches any string, _ matches any character
