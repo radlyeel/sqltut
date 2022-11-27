@@ -1,0 +1,3 @@
+Foreign keys are made after all tables are created.  See tail o create.sql.
+Find a good, low-cost database ERD design tool.  Current candidate: 
+    ZHIKUI E.R.D.
