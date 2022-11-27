@@ -2,16 +2,19 @@
    mariadb> source script.sql
    $ `mariadb -t  < script.sql
 */
+
+-- This line may be MySQL-specific
 use nation;
 
+-- Generic SQL follows 
 select 
     name, 
-    area, 
-    region_id
+    national_day 
 from 
     countries
 where 
-    region_id = 2 and 
-    area > 2000000
+    national_day 
+        between '1945-08-17' 
+            and '1953-11-09'
 order by 
-    name;
+    national_day;
