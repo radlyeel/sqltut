@@ -1,6 +1,6 @@
 /* Run options;
-   mtsql> source sctrpt.sql
-   $ mariadb -u root -p nation < script.sql
+   mariadb> source script.sql
+   $ `mariadb -t  < script.sql
 */
 use nation;
 
